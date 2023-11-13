@@ -132,7 +132,7 @@ function App() {
           <Component mode="SBC" text="roslaunch turtlebot3_autorace_camera raspberry_pi_camera_publish.launch" />
           <Component mode="Remote PC" text="roslaunch turtlebot3_autorace_camera intrinsic_camera_calibration.launch mode:=action" />
           <Component text="roslaunch turtlebot3_autorace_camera extrinsic_camera_calibration.launch mode:=action" />
-          <Component text="roslaunch turtlebot3_autorace_detect detect_traffic_light.launch mode:=parking" />
+          <Component text="roslaunch turtlebot3_autorace_detect detect_sign.launch mode:=parking" />
           <Component mode="Hint" text="roslaunch turtlebot3_autorace_core turtlebot3_autorace_core.launch mission:=parking" />
 
       </div>

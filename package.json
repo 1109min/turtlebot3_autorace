@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://1109min.github.io/turtlebot3_autorace/",
+  "homepage": "https://1109min.github.io/turtlebot3_autorace",
   "eslintConfig": {
     "extends": [
       "react-app",
